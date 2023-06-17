@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# list hidden and non-hidden files that match a pattern
+ls -a {*,.*}.tgz
+
 # reuse argument from last command in current command
 mkdir testdir
 cd $_

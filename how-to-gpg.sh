@@ -1,10 +1,7 @@
 #!/bin/sh
 
-# personal gpg key
-# 17692138D44F2A81980F30D60D8F7627F4E5B8C0
-
-# professional gpg key
-# E67BC11CD9B3EC3B81B70C3568BFEBFB3C1B8D5A
+# decrypt a file
+gpg --output Keegan_Mullaney.xcf --decrypt Keegan_Mullaney.xcf.asc
 
 # export your public key for others to import, stripping out other signatures
 gpg --export --export-options export-minimal -a E67BC11CD9B3EC3B81B70C3568BFEBFB3C1B8D5A > kmullaney.asc
