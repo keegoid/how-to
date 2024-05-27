@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# find files with glob in name
+fd --glob *git-prompt.sh /nix
+
 # list hidden and non-hidden files that match a pattern
 ls -a {*,.*}.tgz
 
